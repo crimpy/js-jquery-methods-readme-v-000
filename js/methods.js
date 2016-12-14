@@ -2,12 +2,12 @@
 
 function fancySchmancy(){
   $('#bacon').addClass('iAmFancy');
-  return $('#bacon').html();
+  return $('#bacon');
 }
 
 function addText(string){
   $('p:nth-child(2)').append(string);
-  return $('p:nth-child(2)').html();
+  return $('p:nth-child(2)');
 }
 
 function showDolphin(){
